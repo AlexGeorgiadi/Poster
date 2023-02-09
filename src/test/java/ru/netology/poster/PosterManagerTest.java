@@ -54,6 +54,7 @@ public class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLast10() {
         Poster[] expected = {poster11, poster10, poster9, poster8, poster7, poster6, poster5, poster4, poster3, poster2};
@@ -61,6 +62,7 @@ public class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLast5() {
         manager = new PosterManager(5);
